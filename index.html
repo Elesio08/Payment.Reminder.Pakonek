@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pakonek Fiber Internet Customer Payment Reminder Portal">
+  <title>Pakonek Payment Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f2f6;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #2f3542;
+    }
+
+    .logo img {
+      width: 450px;
+      max-width: 90%;
+      margin: 0 0 1px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #2c3e50;
+      margin: 0 0 5px;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      font-size: 19px;
+      border-radius: 5px;
+      padding: 21px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+
+    .disconnected {
+      font-size: 33px;
+      color: #e84118;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .green {
+      color: green;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .Text {
+      font-size: 19px;
+    }
+
+    .Text2 {
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .link {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 21px;
+    }
+
+    .pay-btn {
+      background-color: #4169e1;
+      color: white;
+      padding: 10px 30px;
+      font-size: 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+      margin: 20px 0;
+      text-decoration: none;
+    }
+
+    .qr-img {
+      width: 100%;
+      max-width: 450px;
+      margin: 15px auto;
+      display: block;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-size: 14px;
+      color: #7f8c8d;
+    }
+
+    @media (min-width: 768px) {
+      .wrapper {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://i.imgur.com/3Y477za.png" alt="Pakonek Logo">
+  </div>
+
+  <h1>CUSTOMER PAYMENT REMINDER PORTAL</h1>
+
+  <div class="wrapper">
+
+    <!-- Payment Reminder Card -->
+    <div class="card">
+      <div class="disconnected">PAYMENT REMINDER</div>
+      <div class="disconnected">DUE TODAY!</div>
+
+      <p class="Text">Dear Valued Subscriber,</p>
+
+      <p class="Text">
+        Your internet bill is due today. Please settle your outstanding balance
+        to avoid service interruption.
+      </p>
+
+      <p class="Text">
+        For billing concerns, message our official Facebook page.
+      </p>
+
+      <a href="https://m.me/PakonekFiberInternet" target="_blank" rel="noopener noreferrer">
+        <img class="qr-img" src="https://i.imgur.com/hlT4CxV.jpeg" alt="Pakonek Facebook Page">
+      </a>
+
+      <p class="Text">If this was a mistake, call us immediately.</p>
+
+      <p class="green">
+        CUSTOMER SERVICE<br>
+        0917 547 3502 | 0908 815 3886
+      </p>
+
+      <p class="Text">
+        For automatic reconnection, simply click “PAY NOW” or scan the QR CODE
+        and log in using your account number and last name.
+      </p>
+
+      <a class="pay-btn"
+         href="https://pakonekfiberinternet.com/subscribers/"
+         target="_blank"
+         rel="noopener noreferrer">
+        PAY NOW
+      </a>
+
+      <a href="https://i.imgur.com/7J6Oiad.mp4" target="_blank" rel="noopener noreferrer">
+        <img class="qr-img" src="https://i.imgur.com/ASAKfjx.png" alt="Payment QR Code">
+      </a>
+
+      <p class="Text">Can’t login? Message us on Facebook or give us a call.</p>
+    </div>
+
+    <!-- Payment Details Card -->
+    <div class="card">
+      <h3>Payment Details:</h3>
+
+      <p class="Text">You may pay through any of the options below:</p>
+
+      <a href="https://i.imgur.com/xnkEeuD.jpeg" target="_blank" rel="noopener noreferrer">
+        <img class="qr-img" src="https://i.imgur.com/xnkEeuD.jpeg" alt="Payment QR Code">
+      </a>
+
+      <p class="Text2">
+        Note: This payment option requires confirmation within 1 to 2 business days.
+      </p>
+
+      <br>
+
+      <h3>OVER-THE-COUNTER</h3>
+
+      <p class="Text">
+        Visit our head office at:<br>
+
+        <a href="https://i.imgur.com/06Q5RCD.jpeg" target="_blank" rel="noopener noreferrer">
+          <img class="qr-img" src="https://i.imgur.com/06Q5RCD.jpeg" alt="Office Map">
+        </a>
+
+        <a class="link"
+           href="https://maps.app.goo.gl/n4oNzofCoXmGVss77"
+           target="_blank"
+           rel="noopener noreferrer">
+          Phase 2, 2-78 Everlasting St, St Jude Acres Rd, Cebu City
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 PAKONEK FIBER INTERNET | All Rights Reserved
+  </footer>
+
+</body>
+</html>
